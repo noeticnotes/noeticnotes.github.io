@@ -1,1 +1,15 @@
 // custom SCSS (or CSS) goes here
+// Change the color of unvisited sidebar links
+.nav-list-link {
+  color: #333333 !important; // Replace with your preferred color
+}
+
+// Change the color when you hover over a sidebar link
+.nav-list-link:hover {
+  color: #0076FF !important; // Replace with your preferred hover color
+}
+
+// Change the color of the active/currently viewed page link
+.nav-list-link.active {
+  color: #FF5733 !important; // Replace with your preferred active page color
+}
